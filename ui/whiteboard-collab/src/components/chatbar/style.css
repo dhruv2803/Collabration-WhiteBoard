@@ -1,0 +1,46 @@
+.chatbox{
+    background-color: grey;
+    margin-top: 1%;
+    min-height: 90vh;
+    width: 25%;
+    position: relative;
+    display: block;
+    float: right;
+}
+.msgs{
+    height: 80vh;
+    overflow-y: auto;
+    background: linear-gradient(0deg,rgb(181, 143, 241),white);
+    margin: 10px;
+}
+.msg{
+    padding: 15px;
+    background-color: white;
+    margin: 10px 5px;
+    border: 2px solid red;
+    border-radius: 5px;
+    text-align: right;
+}
+.msginp{
+    width: auto;
+    height: 10%;
+    background-color: rgb(107, 76, 156);
+}
+#msgtxt{
+    max-width: 70%;
+    width: 300px;
+    height: 30px;
+    margin: 10px 5px;
+    border: 2px dotted red;
+    border-radius: 5px;
+}
+button{
+    width: 12%;
+    min-width: 50px;
+    height: 40px;
+    margin: 10px 5px;
+    background-color: rgb(26, 170, 26);
+    border: 2px solid green;
+    color: white;
+    border-radius: 15px;
+}

@@ -1,0 +1,41 @@
+.container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #0a0a0a, #73a2a5);
+}
+
+.color-picker-container {
+    text-align: center;
+    display: inline;
+    color: white;
+}
+
+.brushsize-container {
+    display: inline;
+    color: white;
+    margin-left: 12px;
+}
+
+.tools-section {
+    text-align: center;
+}
+
+
+.board-container {
+    width: 74%;
+    height: 90%;
+    position: relative;
+    float: left;
+    margin: auto;
+    margin-top: 1%;
+    background: white;
+}
+
+.chat-container{
+    height: 90%;
+    width: 25%;
+    margin-top: 1%;
+    padding: 0%;
+    float: right;
+}
